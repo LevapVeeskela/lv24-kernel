@@ -4,6 +4,7 @@
 
 [![npm](https://img.shields.io/npm/v/@lv24/kernel?label=npm&color=cb3837&logo=npm)](https://www.npmjs.com/package/@lv24/kernel)
 [![downloads](https://img.shields.io/npm/dm/@lv24/kernel?color=cb3837)](https://www.npmjs.com/package/@lv24/kernel)
+[![release](https://img.shields.io/github/v/release/LevapVeeskela/lv24-kernel?color=0b6b5f&logo=github)](https://github.com/LevapVeeskela/lv24-kernel/releases)
 [![CI](https://github.com/LevapVeeskela/lv24-kernel/actions/workflows/ci.yml/badge.svg)](https://github.com/LevapVeeskela/lv24-kernel/actions/workflows/ci.yml)
 [![GitHub Packages](https://img.shields.io/badge/GitHub%20Packages-%40levapveeskela%2Fkernel-24292f?logo=github)](https://github.com/LevapVeeskela/lv24-kernel/pkgs/npm/kernel)
 [![license](https://img.shields.io/badge/license-MIT-2ea44f)](LICENSE)
