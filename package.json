@@ -1,0 +1,69 @@
+{
+  "name": "@lv24/kernel",
+  "version": "0.1.0",
+  "description": "Public MIT kernel for Instagram automation: Result, HTTP transport, session types and official-feed models.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LevapVeeskela/lv24-kernel.git"
+  },
+  "homepage": "https://github.com/LevapVeeskela/lv24-kernel#readme",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "lint": "oxlint src",
+    "clean": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\"",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "dependencies": {
+    "json-bigint": "1.0.0",
+    "undici": "8.12.4",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "vitest": "5.1.0",
+    "@types/json-bigint": "1.0.4",
+    "@types/node": "26.6.6",
+    "oxlint": "1.92.0"
+  },
+  "author": {
+    "name": "LevapVeeskela",
+    "url": "https://github.com/LevapVeeskela"
+  },
+  "keywords": [
+    "instagram",
+    "instagram-api",
+    "typescript",
+    "sdk",
+    "http-client",
+    "undici",
+    "zod",
+    "result-type"
+  ],
+  "bugs": {
+    "url": "https://github.com/LevapVeeskela/lv24-kernel/issues"
+  }
+}
